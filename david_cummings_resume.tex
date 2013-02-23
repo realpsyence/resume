@@ -1,0 +1,53 @@
+% LaTeX 
+\documentclass[11pt, letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.75in]{geometry}
+
+\usepackage{kpfonts}
+\usepackage[T1]{fontenc}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.2\textwidth}}
+\newcolumntype{R}{p{0.7\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+\renewcommand{\arraystretch}{1.2}
+%\setlength{\tabcolsep}{0em}
+
+% no page numbers, besides others 
+\pagestyle{empty}
+
+% C++ Prettifier - thanks toofishes
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+\begin{document}
+
+\centerline{\large\bf David Logan Cummings}
+\vspace{2em}
+\hrule height 1pt
+
+
+\section*{\textsc{\textbf{Objective}}} A multi-disciplinary role in the development and design of novel
+                consumer devices. 
+
+
+\section*{\textbf{\textsc{Education}}} 
+\begin{tabular}{L!{\VRule}R}
+May 2007&{\sl Bachelor of Science}, Electrical and Computer Engineering \\
+       &Johns Hopkins University \\
+\end{tabular}
+
+\section*{\textbf{\textsc{Experience}}}
+
+\section*{\textbf{\textsc{Computer Skills}}}
+\begin{tabular}{L!{\VRule}R}
+  {\sl Languages}& C, \CPP, C++, Python, Bash, Ruby, {\LaTeX} \\ 
+              {\sl 3D CAD}& Pro/Engineer, Alibre Design, SketchUp \\
+        {\sl PCB Design }& CadSoft Eagle \\ 
+      {\sl VLSI Layout}& Berkeley Magic, Cadence Virtuoso \\ 
+      {\sl Simulation}& Ansoft HFSS, Pro/Mechanica \\ 
+ {\sl Operating Systems}& Ubuntu, OS X, Windows XP/7 \\
+\end{tabular}
+
+\end{document}
