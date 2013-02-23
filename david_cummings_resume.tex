@@ -1,10 +1,13 @@
 % LaTeX 
-\documentclass[11pt, letterpaper]{article}
+\documentclass[10pt, letterpaper]{article}
 
 \usepackage[letterpaper,margin=0.75in]{geometry}
 
 \usepackage{kpfonts}
 \usepackage[T1]{fontenc}
+
+\usepackage{paralist}
+\makeatletter\let\MPtrue\@minipagetrue\makeatother
 
 \usepackage{array, xcolor}
 \definecolor{lightgray}{gray}{0.8}
@@ -24,29 +27,50 @@
 \begin{document}
 
 \centerline{\large\bf David Logan Cummings}
-\vspace{2em}
+www.wordtothebaker.com \hfill dave@mechanart.com
+\vspace{1em}
 \hrule height 1pt
 
 
 \section*{\textsc{\textbf{Objective}}} A multi-disciplinary role in the development and design of novel
-                consumer devices. 
+consumer devices. 
 
 
 \section*{\textbf{\textsc{Education}}} 
 \begin{tabular}{L!{\VRule}R}
-May 2007&{\sl Bachelor of Science}, Electrical and Computer Engineering \\
-       &Johns Hopkins University \\
+  May 2007&{\sl Bachelor of Science}, Electrical and Computer Engineering \\
+          &Johns Hopkins University  \\
 \end{tabular}
 
 \section*{\textbf{\textsc{Experience}}}
+\begin{tabular}{L!{\VRule}R}
+  Nov. 2011 - Present&Co-Founder, Sensorstar Labs \hfill Long Island City, NY \\
+                     &\MPtrue 
+  \begin{compactitem}
+  \item Design and implementation a 64-channel LED control board with audio integration
+  \item Aided in the development of a novel background segmentation software using OpenCV
+  \item On-going investigations at the intersection of new media and physical computing
+  \end{compactitem} \\
+
+  Nov. 2010 - Sep. 2011&Consulting Senior Engineer, Sensorstar, Inc. \hfill Ellicott City, MD \\
+                       &\MPtrue 
+  \begin{compactitem}
+  \item Systems Architecture design and team lead for a novel multi-mode sensor and communications devices
+  \item Circuit analysis and debug for a high-speed audio interleaving system
+  \end{compactitem}\\
+
+  Oct. 2008 - Oct. 2010&Systems Architect \hfill Northrop Grumman ES; Linthicum, MD \\
+
+
+\end{tabular}
 
 \section*{\textbf{\textsc{Computer Skills}}}
 \begin{tabular}{L!{\VRule}R}
-  {\sl Languages}& C, \CPP, C++, Python, Bash, Ruby, {\LaTeX} \\ 
-              {\sl 3D CAD}& Pro/Engineer, Alibre Design, SketchUp \\
-        {\sl PCB Design }& CadSoft Eagle \\ 
-      {\sl VLSI Layout}& Berkeley Magic, Cadence Virtuoso \\ 
-      {\sl Simulation}& Ansoft HFSS, Pro/Mechanica \\ 
+  {\sl Languages}& C, \CPP, Python, Bash, Ruby, {\LaTeX}, OpenCV, Arduino, Processing \\ 
+     {\sl 3D CAD}& Pro/Engineer, Alibre Design, SketchUp \\
+{\sl PCB Design }& CadSoft Eagle \\ 
+{\sl VLSI Layout}& Berkeley Magic, Cadence Virtuoso \\ 
+ {\sl Simulation}& Ansoft HFSS, Pro/Mechanica \\ 
  {\sl Operating Systems}& Ubuntu, OS X, Windows XP/7 \\
 \end{tabular}
 
