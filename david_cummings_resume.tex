@@ -2,7 +2,7 @@
 \documentclass[10pt, letterpaper]{article}
 
 \usepackage[letterpaper,margin=0.75in]{geometry}
-
+\geometry{top =  0.5in}
 \usepackage{kpfonts}
 \usepackage[T1]{fontenc}
 
@@ -21,24 +21,27 @@
 \pagestyle{empty}
 \raggedright
 \usepackage[none]{hyphenat}
+\usepackage{changepage}
+
 % C++ Prettifier - thanks toofishes
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
 
 \begin{document}
 
-%\centerline{\Large\bf David Logan Cummings}
-\hfill {\Large\bf{David Logan Cummings}} \\
+\centerline{\Large\bf David Logan Cummings}
+%\hfill {\Large\bf{David Logan Cummings}} \\
 %\vspace{1em}
 \hfill +1-443-742-6564 \\
 www.wordtothebaker.com \hfill dave@mechanart.com
 \vspace{1em}
 \hrule height 1pt
 
-
-\section*{\textsc{\textbf{Objective}}} A multi-disciplinary role in the development and design of novel
-consumer devices. 
-
+\section*{\textsc{\textbf{Objective}}} 
+\begin{adjustwidth}{2.5em}{0pt}
+  A multi-disciplinary role integrating technology and design to 
+improve our interactions with our environment and each other.
+\end{adjustwidth}
 
 \section*{\textbf{\textsc{Education}}} 
 \begin{tabular}{L!{\VRule}R}
@@ -90,7 +93,7 @@ consumer devices.
 \section*{\textbf{\textsc{Skills}}}
 \begin{tabular}{L!{\VRule}R}
   {\sl Computer Languages}& C, \CPP, Python, Bash, VHDL, CUDA, OpenCV, Ruby, {\LaTeX}, Arduino, Processing \\ 
-     {\sl 3D CAD}& PTC Creo (form. Pro/ENGINEER), Alibre Design, SketchUp \\
+     {\sl 3D CAD}& PTC Creo (formerly Pro/ENGINEER), Alibre Design, SketchUp \\
 {\sl PCB Design }& CadSoft Eagle \\ 
  {\sl Simulation}& Ansoft HFSS, Pro/Mechanica \\ 
  {\sl Operating Systems}& Linux (Ubuntu pref.), OS X, Windows XP/7 \\
