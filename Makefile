@@ -31,7 +31,7 @@ dvi:	$(TEXFILE:.tex=.dvi)
 	)
 
 %.ps: %.dvi
-	dvips -q -t a4 $< -o $(<:.dvi=.ps)
+	dvips -q -t letter $< -o $(<:.dvi=.ps)
 
 %.pdf: %.ps
 	ps2pdf -dPDFSETTINGS=/prepress $<
